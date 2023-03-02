@@ -4,6 +4,7 @@ import Login from './components/Login';
 import Home from './container/Home';
 
 function App() {
+  const navigate = useNavigate();
   return (
     <div className="App">
     <Routes>
